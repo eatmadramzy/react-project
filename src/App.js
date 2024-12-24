@@ -1,10 +1,11 @@
 
+
 import React from "react";
 import"../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import"../node_modules/font-awesome/css/font-awesome.min.css";
 import{BrowserRouter ,Routes,Route}from"react-router-dom";
 
-import Navbar from "./components/Navbar";
+
 import Home from "./pages/Home.jsx";
 import Login from "./pages/Login";
 import Register from "./pages/Register.jsx";
@@ -21,11 +22,11 @@ import Checkout from "./pages/Checkout.jsx";
 function App() {
   return (
    <>
-     {/* <Navbar/>  */}
+   
  
      <BrowserRouter>
      <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route  exact path="/" element={<Home/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/register" element={<Register/>}/>
       <Route path="*" element={<PageNotFound/>}/>

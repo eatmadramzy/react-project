@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="col-12 col-md-6">
                             <p className="mb-0">
                                 Our Store
-                                <a href="#" className="text-decoration-underline fw-bold fs-5 text-dark">Store</a>
+                               
                             </p>
                         </div>
                     </div>

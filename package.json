@@ -1,4 +1,5 @@
 {
+ 
   "name": "proj8",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^6.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-loading-skeleton": "^3.5.0",
@@ -18,6 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+ 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "ajv": "^7.2.4"
   }
 }

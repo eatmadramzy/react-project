@@ -3,10 +3,10 @@ import { useState,useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import Skeleton from "react-loading-skeleton";
 import Navbar from "../components/Navbar";
-import handleCart from "../redux/action/reducer/handleCart";
+
 import { useDispatch } from "react-redux";
 import { addProduct } from "../redux/action/action";
-import Products from "../components/Products";
+
 
 
 

@@ -4,7 +4,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addProduct, delProduct } from '../redux/action/action';
-import { Link, NavLink } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 
 const Cart = () => {
